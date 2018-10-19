@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CookrHorizontalPrototype"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Cookr" ResizeMode="NoResize"  Height="600" Width="800">
     <Grid>
-        
+        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="569" VerticalAlignment="Top" Width="792" NavigationUIVisibility="Hidden" Source="/CookrHorizontalPrototype;component/BasePages/Home.xaml"/>
+
     </Grid>
 </Window>
